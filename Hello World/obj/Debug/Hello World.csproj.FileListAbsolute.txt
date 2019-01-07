@@ -1,0 +1,10 @@
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\bin\Debug\Hello World.exe.config
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\bin\Debug\Hello World.exe
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\bin\Debug\Hello World.pdb
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\obj\Debug\Hello World.csprojResolveAssemblyReference.cache
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\obj\Debug\Hello World.exe
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\obj\Debug\Hello World.pdb
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\bin\Debug\Hello World.exe.manifest
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\bin\Debug\Hello World.application
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\obj\Debug\Hello World.exe.manifest
+c:\users\dorian.raszka\documents\visual studio 2013\Projects\Hello World\Hello World\obj\Debug\Hello World.application

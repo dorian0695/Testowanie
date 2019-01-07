@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Hello World.exe" version="1.0.0.1" publicKeyToken="4b285aa48ac934e1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Hello World" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Hello World.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Hello World.exe" size="5584">
+      <assemblyIdentity name="Hello World" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>j7WtmqpM+Xigb2h9wD+3titzrN8smvDgP0F+soASdV8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Hello World.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PESA\Dorian.Raszka" issuerKeyHash="fcebe3c21cade6bedcdf3fced83cb3511b4215a9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>f1hqFvY8y7EsdFjkrLbeqnqGf+oirA+SSDiGAnM7xyY=</DigestValue></Reference></SignedInfo><SignatureValue>Esh36BQHZHjlOXY3jCjxZ82RjNdsxfKR5A1tKEpcK3kPx9MRl3XpEyf6I/6fl8kJrtt2euNwxoVFc5jCVrHgStuTrqdzCF3v8Ue0CkeAMrvd0uvczaqbEUyChvipW+1/T2nJ7y6HkFkN4Snu0kvMaZbA+fhG+9cMEnr1ZIKYrOE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mwtAWESZzrBcUbEG5f8xKeaZWDfdCM3WTb19T+4UqumDxYVIwAp6i9HJVnhJuQ5pAfcjAaxuJ5dssIlWRI5D9zevV+XHMgfiwSd2TDJlBy/wDLmU9wLvjF8C5bYN/OqSqJ7rRVpudrVhuzvqcJNo6TKg0SYoYVRfSc/WYugaJlc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="26c73b7302863848920fac22ea7f867aaadeb6ace458742cb1cb3cf6166a587f" Description="" Url=""><as:assemblyIdentity name="Hello World.exe" version="1.0.0.1" publicKeyToken="4b285aa48ac934e1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PESA\Dorian.Raszka</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xr/fGnuZXhkwCCh8h0vAOV1LlM4sv9fvX03QVaqMeWk=</DigestValue></Reference></SignedInfo><SignatureValue>DZAlku/JxYBYMuPES41PdnAqhc7VNHPKIm2xyhqiuON2iyHfEDoVmLBkn/ueiaM0cJlyD4sPlxQ693jrQiYoraQmRcYp7WjgfewbQMutnAvIY56rgvEv9yWL+W+z5Hd/L7soiAdTyDKWuJpTWK5sogrmUB/4KO9C7CfRulCT5nc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mwtAWESZzrBcUbEG5f8xKeaZWDfdCM3WTb19T+4UqumDxYVIwAp6i9HJVnhJuQ5pAfcjAaxuJ5dssIlWRI5D9zevV+XHMgfiwSd2TDJlBy/wDLmU9wLvjF8C5bYN/OqSqJ7rRVpudrVhuzvqcJNo6TKg0SYoYVRfSc/WYugaJlc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQam27Ajo4fY9GGaw6zDitfTANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAUABFAFMAQQBcAEQAbwByAGkAYQBuAC4AUgBhAHMAegBrAGEwHhcNMTkwMTA0MTAzNDUwWhcNMjAwMTA0MTYzNDUwWjAvMS0wKwYDVQQDHiQAUABFAFMAQQBcAEQAbwByAGkAYQBuAC4AUgBhAHMAegBrAGEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJsLQFhEmc6wXFGxBuX/MSnmmVg33QjN1k29fU/uFKrpg8WFSMAKeovRyVZ4SbkOaQH3IwGsbieXbLCJVkSOQ/c3r1flxzIH4sEndkwyZQcv8Ay5lPcC74xfAuW2Dfzqkqie60Vabna1Ybs76nCTaOkyoNEmKGFUX0nP1mLoGiZXAgMBAAEwDQYJKoZIhvcNAQELBQADgYEASZgK0AS6+pTtV/eURNLlvNt7EiM8yzOUU0NagIu78Ta5eiRFGUO4C4fN35eKYuKgmD/XDrPk+ILJtHAFRqU1Y4JeC+MhQ3mtbQHxAmw57rXLmTRKEyMtLCtrE/WRdajyxZ2iaaRVUKSVITGRuGCCtocWLkNlq3OFpIAyF5U7sDU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
